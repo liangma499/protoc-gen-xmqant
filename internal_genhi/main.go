@@ -17,8 +17,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/GodWY/protoc-gen-mqant/internal/genid"
-	"github.com/GodWY/protoc-gen-mqant/internal/version"
+	"github.com/liangma499/protoc-gen-xmqant/internal/genid"
+	"github.com/liangma499/protoc-gen-xmqant/internal/version"
 	"google.golang.org/genproto/googleapis/api/annotations"
 
 	"google.golang.org/protobuf/compiler/protogen"

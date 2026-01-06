@@ -6,6 +6,7 @@
 // both proto2 and proto3 versions of the protocol buffer language.
 //
 // For more information about the usage of this plugin, see:
+//
 //	https://developers.google.com/protocol-buffers/docs/reference/go-generated
 package main
 
@@ -13,11 +14,12 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/GodWY/protoc-gen-mqant/internal_genhi"
 	"os"
 	"path/filepath"
 
-	"github.com/GodWY/protoc-gen-mqant/internal/version"
+	"github.com/liangma499/protoc-gen-xmqant/internal_genhi"
+
+	"github.com/liangma499/protoc-gen-xmqant/internal/version"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 

@@ -1,4 +1,4 @@
-module github.com/GodWY/protoc-gen-mqant
+module github.com/liangma499/protoc-gen-xmqant
 
 go 1.13
 

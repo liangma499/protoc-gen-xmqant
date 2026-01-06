@@ -7,7 +7,7 @@ package internal_genhi
 import (
 	"strings"
 
-	"github.com/GodWY/protoc-gen-mqant/internal/genid"
+	"github.com/liangma499/protoc-gen-xmqant/internal/genid"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 
