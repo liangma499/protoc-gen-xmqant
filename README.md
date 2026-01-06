@@ -18,7 +18,7 @@
 ```
 
 ```go
- go install github.com/liangma499/protoc-gen-xmqant/protoc-gen-mqant
+ go install github.com/liangma499/protoc-gen-xmqant
 ```
 总结: 下载代码目的是将二进制文件下载到gopath的bin文件下。
 ## 构建一个服务
