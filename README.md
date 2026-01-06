@@ -7,7 +7,7 @@
 ### 第一种方式
 1. 下载代码到本地
 ```git
-    git clone https://github.com/liangma499/protoc-gen-xmqant/protoc-gen-mqant.git
+    git clone https://github.com/liangma499/protoc-gen-xmqant.git
 ```
 2. 执行 make {电脑型号}，构建protoc-gen-mqant 可执行文件
 
