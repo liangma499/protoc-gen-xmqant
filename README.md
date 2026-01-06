@@ -7,18 +7,18 @@
 ### 第一种方式
 1. 下载代码到本地
 ```git
-    git clone https://github.com/GodWY/protoc-gen-mqant.git
+    git clone https://github.com/liangma499/protoc-gen-xmqant/protoc-gen-mqant.git
 ```
 2. 执行 make {电脑型号}，构建protoc-gen-mqant 可执行文件
 
 ### 第二种方式
 
 ```go
- go get -u github.com/GodWY/protoc-gen-mqant@latest
+ go get -u github.com/liangma499/protoc-gen-xmqant@latest
 ```
 
 ```go
- go install github.com/GodWY/protoc-gen-mqant
+ go install github.com/liangma499/protoc-gen-xmqant/protoc-gen-mqant
 ```
 总结: 下载代码目的是将二进制文件下载到gopath的bin文件下。
 ## 构建一个服务
