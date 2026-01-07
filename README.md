@@ -1,6 +1,6 @@
 # 自动生成代码介绍
 
-> protoc-gen-mqant 是一款可以自动生成rpc服务注册和调用的工具，其基于mqant微服务框架作为构建模板，通过读取Protobuffer的message和serveice构建服务注册和调用
+> protoc-gen-xmqant 是一款可以自动生成rpc服务注册和调用的工具，其基于mqant微服务框架作为构建模板，通过读取Protobuffer的message和serveice构建服务注册和调用
 
 ## 构建生成代码工具
 
@@ -9,7 +9,7 @@
 ```git
     git clone https://github.com/liangma499/protoc-gen-xmqant.git
 ```
-2. 执行 make {电脑型号}，构建protoc-gen-mqant 可执行文件
+2. 执行 make {电脑型号}，构建protoc-gen-xmqant 可执行文件
 
 ### 第二种方式
 
@@ -61,7 +61,7 @@
 
 ```shell
     protoc --plugin=protoc-gen-go=/Users/GodWY/go/bin/protoc-gen-go   --go_out=./  ./proto/examples/*.proto --experimental_allow_proto3_optional
-    protoc --plugin=protoc-gen-mqant=protoc-gen-mqant  --proto_path=.  --mqant_out=./   ./proto/examples/*.proto ./proto/examples1/*.proto --experimental_allow_proto3_optional
+    protoc --plugin=protoc-gen-xmqant=protoc-gen-xmqant  --proto_path=.  --mqant_out=./   ./proto/examples/*.proto ./proto/examples1/*.proto --experimental_allow_proto3_optional
 ```
 
 3. 生成的代码
@@ -83,7 +83,7 @@ import (
 	basemodule "xmqant/module/base"
 	client "xmqant/module"
 	mqrpc "xmqant/rpc"
-	"golang.org/x/net/context"
+	"context"
 )
 
 // generated mqant method

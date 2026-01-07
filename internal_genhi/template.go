@@ -144,7 +144,7 @@ import (
 	basemodule "xmqant/module/base"
 	client "xmqant/module"
 	mqrpc "xmqant/rpc"
-	"golang.org/x/net/context"
+	"context"
 	{{- range $key, $value := .ImportsPath }}
   	{{$value}}
 	{{- end}}
